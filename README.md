@@ -12,6 +12,10 @@ argv[1] = 3
 argv[2] = 0
 argv[3] = 600000
 Complete the following programs in the C programming language.
+
+
+
+
 1. (2 points) Armstrong Numbers
 Number n is called Armstrong’s number of order k if it is equal to the sum of k-th powers of its
 digits.
@@ -22,15 +26,24 @@ interval between p and q. You should use functions like pow() provided by the ma
 Input: The user will type the integers k, p, and q on the command line. Taking in one integer at
 a time, in this order.
 Output should consist of a single number per line with no extra or blank lines.
+
+
+
 2. (2 points) Let n be a positive integer. Euler’s phi-function φ(n) is defined to be the number of
 positive integers not exceeding n that are relatively prime to n.
 Write a program that can be used to calculate and display the value of Euler’s phi-function for a
 series of positive integer, separated by spaces, entered on the command line.
+
+
+
 3. (2 points) Using pointers and avoiding unnecessary local variables, write a function, rmchr
 that takes a string and a character as arguments. The rmchr function should remove all
 occurrences of the character from the string. The rmchr function should not leave spaces
 characters in the string where characters have been removed. The resulting string should be
 returned using an appropriate data type and printed to the command line.
+
+
+
 4. (2 points) Using pointers and avoiding unnecessary local variables, write a function, rmstr
 that takes two strings as arguments, removing all occurrences of any character from the second
 string in the first string. The rmstr function should not leave spaces characters in the string
